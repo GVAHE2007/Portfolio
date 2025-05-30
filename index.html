@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="./maxdenaro graph-modal master dist/graph-modal.min.css">
+    <link rel="stylesheet" href="ctyle.css">
+    <link rel="stylesheet" href="burger.css">
+    <link rel="stylesheet" href="swiper.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="fullburger">
+        <div class="fullburger-container">
+            <a class="fullburger-logo" href="#">
+
+            </a>
+            <nav class="fullburger-nav">
+                <ul class="fullburger-list ">
+                    <li class="fullburger-item">
+                        <a href="#" class="fullburger-link" data-lang="header-home">home</a>
+                    </li>
+                    <li class="fullburger-item">
+                        <a href="#about" class="fullburger-link" data-lang="header-about">about me</a>
+                    </li>
+                    <li class="fullburger-item">
+                        <a href="#skills" class="fullburger-link" data-lang="header-skills">skills</a>
+                    </li>
+                    <li class="fullburger-item">
+                        <a href="#portfolio" class="fullburger-link" data-lang="header-portfolio">portfolio</a>
+                    </li>
+                    <li class="fullburger-item">
+                        <a href="#contact" class="fullburger-link" data-lang="header-contacts">contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="fullburger-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+
+
+    <!-- <header class="header">
+        <ul class="ul">
+            <li><a data-lang="header-home" href="#">Home</a></li>
+            <li><a data-lang="header-about" href="#">About me</a></li>
+            <li><a data-lang="header-skills" href="#">Skills</a></li>
+            <li><a data-lang="header-portfolio" href="#">Portfolio</a></li>
+            <li><a data-lang="header-contacts" href="#">Contacts</a></li>
+
+        </ul>
+
+    </header> -->
+    <div class="header-content">
+        <div class="header-title">
+            <h1>
+                <span data-lang="hero-name">Denis</span><br>
+                <span data-lang="hero-lastname">Novik</span>
+            </h1>
+
+            <h3 data-lang="hero-text">
+                UX | UI designer <br>
+                24 years old, Minsk
+            </h3>
+            <h3 class="lenguage">
+                <button id="en">ENG</button>
+                |
+                <button class="ru" id="ru">RU</button>
+
+            </h3>
+        </div>
+        <picture>
+            <source media="(min-width: 600px)" srcset="img/Denis.png">
+            <img src="img/Denisjr.jpg" alt="" class="header-content-img">
+        </picture>
+
+    </div>
+
+
+    <div class="about-content" id="about">
+        <h1 class="about-title" data-lang="about-title">About me</h1>
+        <div class="about-text">
+            <p data-lang="about-text1">Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                I'm interested in design and everything connected with it.
+            </p>
+            <p data-lang="about-text2">
+                I'm studying at courses "Web and mobile design <br>
+                interfaces" in IT-Academy.
+            </p>
+            <p data-lang="about-text3">Ready to implement excellent projects <br>
+                with wonderful people.</p>
+        </div>
+
+    </div>
+
+    <div class="skills-content" id="skills">
+        <h1 class="skills-title" data-lang="skills-title">Skills</h1>
+        <span class="skills-text" data-lang="skills-text">I work in such programs as</span>
+        <div class="skills">
+            <div class="skill">
+                <img src="img/Group.jpg" alt="">
+                <span>Adobe <br>
+                    Photoshop</span>
+                <div class="img">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star (1).png" alt="">
+
+                </div>
+            </div>
+
+            <div class="skill">
+                <img src="img/Group 2.png" alt="">
+                <span>Adobe <br>
+                    Illustrator</span>
+                <div class="img">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star (1).png" alt="">
+                    <img src="img/Star (1).png" alt="">
+
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/Group.png" alt="">
+                <span>Adobe <br>
+                    After Effects</span>
+                <div class="img">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star (1).png" alt="">
+
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/Frame.png" width="150" height="100">
+                <span>Figma</span>
+                <div class="img">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star.png" alt="">
+                    <img src="img/Star (1).png" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <!-- <swiper-container class="mySwiper"  slides-per-view="3" centered-slides="true" space-between="70"
+            pagination="true" pagination-type="fraction" navigation="true">
+            <swiper-slide class="href">
+                <img src="img/Слой 8.jpg" alt="">
+                <a href="#">Online fashion store - Homepage</a>
+            </swiper-slide>
+
+
+            <swiper-slide class="href">
+                <img src="img/reebok_web.jpg" alt="">
+                <a href="#">Reebok Store - Concept</a>
+
+            </swiper-slide>
+            <swiper-slide class="href">
+                <img src="img/reebok_web (1).jpg" alt="">
+                <a href="#">Braun Landing Page - Concept</a>
+
+            </swiper-slide>
+
+        </swiper-container> -->
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <h1 class="swiper-title" data-lang="portfolio-title">Portfolio</h1>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/image1.jpg" class="swiper-img">
+                    <a href="#">Online fashion store - Homepage</a>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/image2.jpg" class="swiper-img">
+                    <a href="#">Reebok Store - Concept</a>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/image3.jpg" class="swiper-img">
+                    <a href="#">Braun Landing Page - Concept</a>
+                </div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 3</div>
+
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+
+
+
+
+    </div>
+
+    <footer class="footer" id="contact">
+        <h1 class="contact-title" data-lang="contact-title">Contacts</h1>
+        <span data-lang="contact-text">Want to know more or just chat? <br>
+            You are welcome!</span>
+        <button class="btn-reset modal-btn button" data-graph-animation="custom" data-graph-path="first"
+            data-lang="contact-button">Send
+            message</button>
+        <div class="contact-icons">
+            <img src="img/Group 2.svg" alt="">
+            <img src="img/Group 8.svg" alt="">
+            <img src="img/Group 9.svg" alt="">
+            <img src="img/Group 10.png" alt="">
+
+        </div>
+        <span class="contact-text" data-lang="contact-text2">Like me on <br>
+            LinkedIn, Instagram, Behance, Dribble</span>
+    </footer>
+    <div class="graph-modal">
+        <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="first">
+            <button class="btn-reset graph-modal__close js-modal-close" aria-label="Закрыть модальное окно"></button>
+            <div class="graph-modal__content">
+                <form action="https://api.web3forms.com/submit" class="form" method="POST">
+                    <h1>Registration</h1>
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="46c5cc47-8848-4b4b-8e09-05197f2d01ef">
+
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <input type="text" name="name" class="name" placeholder="name" required>
+                    <input type="email" name="email" class="email" placeholder="email" required>
+                    <textarea name="message" class="message" placeholder="text" required></textarea>
+
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <!-- Custom Confirmation / Success Page -->
+                    <input type="hidden" name="redirect" value="http://127.0.0.1:5500/index.html">
+
+                    <button type="submit" class="submit">Submit Form</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="swiper.js"></script>
+    <script src="./maxdenaro graph-modal master dist/graph-modal.min.js"></script>
+    <script src="burger.js "></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

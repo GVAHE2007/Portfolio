@@ -1,0 +1,90 @@
+{
+    "header": {
+        "home": {
+            "ru": "Главная",
+            "en": "Home"
+        },
+        "about": {
+            "ru": "Oбо мне",
+            "en": "About me"
+        },
+        "skills": {
+            "ru": "Навыки",
+            "en": "Skills"
+        },
+        "portfolio": {
+            "ru": "Портфолио",
+            "en": "Portfolio"
+        },
+        "contacts": {
+            "ru": "Контакты",
+            "en": "Contacts"
+        }
+    },
+    "hero": {
+        "name": {
+            "ru": "Денис",
+            "en": "Denis"
+        },
+        "lastname": {
+            "ru": "Новик",
+            "en": "Novik"
+        },
+        "text": {
+            "ru": " UX | UI дизайнер 24 года, Минск",
+            "en": " UX | UI designer24 years old, Minsk"
+        }
+    },
+    "about": {
+        "title": {
+            "ru": "Oбо мне",
+            "en": "About me"
+        },
+        "text1": {
+            "ru": "Привет, я Денис – UX/UI дизайнер из Минска. Я интересуюсь дизайном и всем, что с ним связано.",
+            "en": "Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it."
+        },
+        "text2": {
+            "ru": "Я учусь на курсах Веб-дизайн и мобильный дизайн интерфейсов в IT-Академии.",
+            "en": "I'm studying at courses Web and mobile design  interfaces in IT-Academy."
+        },
+        "text3": {
+            "ru": "Готов реализовывать отличные проекты с замечательными людьми.",
+            "en": "Ready to implement excellent projects  with wonderful people."
+        }
+    },
+    "skills": {
+        "title": {
+            "ru": "Навыки",
+            "en": "Skills"
+        },
+        "text": {
+            "ru": "Я работаю в таких программах как",
+            "en": "I work in such programs as"
+        }
+    },
+    "portfolio": {
+        "title": {
+            "ru": "Портфолио",
+            "en": "Portfolio"
+        }
+    },
+    "contact": {
+        "title": {
+            "ru": "Контакты",
+            "en": "Contacts"
+        },
+        "text": {
+            "ru": "Хотите узнать больше или просто пообщаться? Добро пожаловать!",
+            "en": "Want to know more or just chat? You are welcome!"
+        },
+        "button": {
+            "ru": "отправить сообщение",
+            "en": "send message"
+        },
+        "text2": {
+            "ru": "Подпишитесь на меня в LinkedIn, Instagram, Behance, Dribble",
+            "en": "Like me on   LinkedIn, Instagram, Behance, Dribble"
+        }
+    }
+}
